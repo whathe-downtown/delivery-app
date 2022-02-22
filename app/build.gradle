@@ -52,4 +52,10 @@ dependencies {
     implementation  ("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2")
     testImplementation  ("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.5.2")
 
+    //koin DI
+    implementation "org.koin:koin-android:2.1.5"
+    implementation "org.koin:koin-android-scope:2.1.5"
+    implementation "org.koin:koin-android-viewmodel:2.1.5"
+    implementation "org.koin:koin-android-ext:2.1.5"
+
 }
